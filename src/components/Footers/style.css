@@ -1,0 +1,14 @@
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#eef1ef ;
+}
+
+.main-container p {
+    font-size: medium;
+}
+
+.container {
+    display: inline;
+}

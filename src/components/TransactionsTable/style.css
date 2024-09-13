@@ -1,0 +1,70 @@
+.search-panel {
+    display: flex;
+}
+
+.input {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    box-shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
+    border-radius: 0.5rem;
+    padding: 0rem 0.5rem;
+}
+
+.input input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 0;
+}
+
+.input input:focus {
+    outline: none;
+}
+
+.input-radio {
+    display: flex;
+    border: 0;
+}
+
+.sort-import-export {
+    display: flex;
+    align-items: center;
+}
+
+.sort-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    gap: 0.5rem;
+}
+
+.sort-panel p {
+    font-weight: 500;
+
+}
+
+.import-export {
+    margin-left: auto;
+    display: flex;
+
+}
+
+.button {
+    color: var(--theme);
+    font-size: 0.8rem;
+    padding: 0.9rem;
+    background-color: #fff;
+    border: 1px solid var(--theme);
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    margin: 0.5rem;
+}
+
+.button:hover {
+    background-color: rgb(92, 0, 178);
+    color: #fff;
+}

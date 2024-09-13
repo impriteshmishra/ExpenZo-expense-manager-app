@@ -1,0 +1,33 @@
+.logo {
+    color: var(--theme);
+    font-size: 4rem;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    margin: 0;
+}
+.welcome{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.text {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+@media (max-width: 480px) {
+    .welcome {
+        height: 35px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .text{
+        font-size: 1.5rem;
+    }
+    .logo{
+        font-size: 3rem;
+    }
+}
